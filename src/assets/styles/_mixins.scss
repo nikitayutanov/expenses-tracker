@@ -1,0 +1,7 @@
+@mixin gap($value, $direction: bottom) {
+  $margin: 'margin-#{$direction}';
+
+  > *:not(:last-child) {
+    #{$margin}: $value;
+  }
+}
