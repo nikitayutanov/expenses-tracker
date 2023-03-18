@@ -1,5 +1,13 @@
+import { Header, Footer } from 'components';
+
 function App() {
-  return <div>App</div>;
+  return (
+    <>
+      <Header />
+      <main>App</main>
+      <Footer />
+    </>
+  );
 }
 
 export { App };
